@@ -1,52 +1,35 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Sharing Assignment
+> A bike-sharing system in which bikes are made available for shared use to individuals on a short term basis for a price or free. It allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
+## Business objective
+The objective is to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+<br>
 
-<!-- You can include any other section that is pertinent to your problem -->
+## Problem Solving Methodology
+* Data Understanding-
+> Understanding and working with data dictionary and getting good knowledge of all the columns and their domain specific uses.
+* Data Visualization-
+> Perform EDA to understand various variables.
+> Check the correlation between the variables.
+* Data Preparation-
+> Create dummy variables for all the categorical features.
+> Divide the data to train & Test.
+> Perform Scaling.
+> Divide data into dependent & Independent variables.
+* Data Modelling & Evaluation-
+> Create Linear Regression model using mixed approach (RFE & VIF/p-value).
+> Check the various assumptions.
+> Check the Adjusted R-Square for both train & Test data.
+> Report the final model.
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+<br>
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.x
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Libraries Used
+- Pandas , Numpy , Matplotlib , Seaborn , sklearn , statsmodels
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Contributors
+* [Navya Hegde](https://github.com/navyahegde16/)
